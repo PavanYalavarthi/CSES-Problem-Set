@@ -9,6 +9,7 @@ Problem Statement:
     Example Input: ATTCGGGA
     Output: 3
 */
+
 //Some optimization stuff
 #pragma GCC optimize("O3,no-stack-protector,unroll-loops,fast-math")
 #pragma GCC target("avx,avx2,fma")

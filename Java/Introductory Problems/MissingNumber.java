@@ -21,6 +21,7 @@ class MissingNumber {
         PrintWriter out=new PrintWriter(System.out);
         long n = sc.nextLong();
         long ans = n;
+        //Picked XOR as bitwise operations are faster
         for(long i = 1; i< n; i++){
             long element = sc.nextLong();
             ans ^= (i ^ element);

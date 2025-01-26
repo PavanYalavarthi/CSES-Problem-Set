@@ -12,6 +12,7 @@ Problem Statement:
 n = int(input())
 ans = n
 element_list = list(map(int, input().split()))
+# Picked XOR as bitwise operations are faster
 for i, element in enumerate(element_list, 1):
     ans ^= ( i ^ element)
 print(ans)

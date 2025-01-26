@@ -25,6 +25,7 @@ int main() {
     cin.tie(nullptr)->sync_with_stdio(false);
     ll n;
     cin >> n;
+    //Self explanatory
     while(n != 1) {
         cout << n << ' ';
         if( n & 1) n = 3 * n + 1;

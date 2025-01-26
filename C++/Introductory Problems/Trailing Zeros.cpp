@@ -15,7 +15,7 @@ Problom Statement:
 
 /*
 Solution:
-    Since 10 = 2 * 5, number of times 5 can divide n!
+    Since 10 = 2 * 5 and 5 is the largest prime, ans is number of times 5 can divide n!
 */
 
 //Some optimization stuff

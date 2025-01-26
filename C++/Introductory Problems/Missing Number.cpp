@@ -22,6 +22,7 @@ int main() {
     uint n;
     cin >> n;
     uint ans = n, element;
+    //Picked XOR as bitwise operations are faster
     for(uint i = 1; i< n; i++) {
         cin >> element;
         ans ^= (i ^ element);

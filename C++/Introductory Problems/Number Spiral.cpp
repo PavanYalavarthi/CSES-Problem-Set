@@ -39,7 +39,7 @@ int main() {
         ll row,col;
         cin >> row >> col ;
         if(row > col ){
-            if(row&1)cout << (row-1) * (row-1) + col  << endl;
+            if(row&1) cout << (row-1) * (row-1) + col  << endl;
             else cout << row * row - col  + 1  << endl;
         } else {
             if(col &1) cout << col  * col  - row + 1 << endl;

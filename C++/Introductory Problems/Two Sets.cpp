@@ -28,7 +28,7 @@ Problem Statement:
 
 /*
 Solution:
-    Logic here is to give both the extremes to sets alternatively i.e., 1 & n goes to set 1 and 2 & (n-1) goes to set 2 ...
+    Logic here is to give both the extremes to sets alternatively i.e., 1 & n goes to set1,  2 & (n-1) goes to set2 ...
     So, the numbers need to get divided by 4 as 4 numbers are poped up for each round.
     If % 4 = 0, means we can distribute numbers as per above logic
     If % 4 = 1, means 1 number is remaining at end, which cant be given to any set, so no possibility

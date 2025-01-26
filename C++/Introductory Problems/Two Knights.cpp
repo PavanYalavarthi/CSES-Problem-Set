@@ -28,10 +28,10 @@ Solution:
         First knight can go in any of the i^2 squares and second can be in i^2 -1; 
         So, total possiblities  = i^2 * ( i^2 -1) / 2 [combinations]
     Possibilities of attacking:
-        Total number of 3 x 2 squares in chess board : (i-1) * (i-2) [Horizontally] + (i-1) * (i-2) [Vertically]
+        Total number of 3 x 2 squares in chess board : (i-1) * (i-2) [Horizontally] + (i-1) * (i-2) [Vertically] = 2 * (i-1) * i-2)
         Attacking positions are 2 [Placing at the corners]
-        So, number of attacking positions = 4 * (i-1) * (i-2)
-    Number of non attacking  = total - attackinmg positions
+        So, number of attacking positions = 2 * 2 * (i-1) * (i-2)
+    Number of non attacking  = total - attacking positions
 */
 
 //Some optimization stuff
